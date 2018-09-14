@@ -1,0 +1,27 @@
+<channel
+   name="test2_TemplateChannel1"
+   guid="74C2D9A6A6513BC78532FBF185D550A2"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="test2_TemplateChannel1-From-0WqJqf3V1SghXj"
+      commit_id="c9d2d769c0c64da6d63fe1b4058ce6d308d9366d"
+      commit_comment="done"
+      poll_time="15000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
